@@ -1,4 +1,4 @@
-Model Transformer
+Model Converter
 
 Inspired by and using emftriple(https://github.com/ghillairet/emftriple): a small utility that can transform models to other formats.
 
