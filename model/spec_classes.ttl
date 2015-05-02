@@ -1,0 +1,55 @@
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#/> a <http://www.eclipse.org/emf/2002/Ecore#//EPackage> ;
+	<http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name> "Tasker_application" ;
+	<http://www.eclipse.org/emf/2002/Ecore#//EPackage/nsURI> "urn:Tasker_application" ;
+	<http://www.eclipse.org/emf/2002/Ecore#//EPackage/nsPrefix> "Tasker_application" .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//phone> a <http://www.eclipse.org/emf/2002/Ecore#//EClass> ;
+	<http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name> "phone" ;
+	<http://www.eclipse.org/emf/2002/Ecore#//EClass/eSuperTypes> <file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/entitysupermodel.ecore#//EntitySuperClass> .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//phone/be_enabled> a <http://www.eclipse.org/emf/2002/Ecore#//EOperation> ;
+	<http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name> "be_enabled" .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//phone> <http://www.eclipse.org/emf/2002/Ecore#//EClass/eOperations> <file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//phone/be_enabled> .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#/> <http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers> <file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//phone> .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//time> a <http://www.eclipse.org/emf/2002/Ecore#//EClass> ;
+	<http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name> "time" ;
+	<http://www.eclipse.org/emf/2002/Ecore#//EClass/eSuperTypes> <file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/entitysupermodel.ecore#//EntitySuperClass> .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//time/be_great_than> a <http://www.eclipse.org/emf/2002/Ecore#//EOperation> ;
+	<http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name> "be_great_than" .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//time/be_great_than/string_var_0> a <http://www.eclipse.org/emf/2002/Ecore#//EParameter> ;
+	<http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name> "string_var_0" ;
+	<http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType> <http://www.eclipse.org/emf/2002/Ecore#//EString> .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//time/be_great_than> <http://www.eclipse.org/emf/2002/Ecore#//EOperation/eParameters> <file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//time/be_great_than/string_var_0> .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//time> <http://www.eclipse.org/emf/2002/Ecore#//EClass/eOperations> <file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//time/be_great_than> .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//time/be_small_than> a <http://www.eclipse.org/emf/2002/Ecore#//EOperation> ;
+	<http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name> "be_small_than" .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//time/be_small_than/string_var_0> a <http://www.eclipse.org/emf/2002/Ecore#//EParameter> ;
+	<http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name> "string_var_0" ;
+	<http://www.eclipse.org/emf/2002/Ecore#//ETypedElement/eType> <http://www.eclipse.org/emf/2002/Ecore#//EString> .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//time/be_small_than> <http://www.eclipse.org/emf/2002/Ecore#//EOperation/eParameters> <file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//time/be_small_than/string_var_0> .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//time> <http://www.eclipse.org/emf/2002/Ecore#//EClass/eOperations> <file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//time/be_small_than> .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#/> <http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers> <file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//time> .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//mobile_data> a <http://www.eclipse.org/emf/2002/Ecore#//EClass> ;
+	<http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name> "mobile_data" ;
+	<http://www.eclipse.org/emf/2002/Ecore#//EClass/eSuperTypes> <file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/entitysupermodel.ecore#//EntitySuperClass> .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//mobile_data/be_disabled> a <http://www.eclipse.org/emf/2002/Ecore#//EOperation> ;
+	<http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name> "be_disabled" .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//mobile_data> <http://www.eclipse.org/emf/2002/Ecore#//EClass/eOperations> <file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//mobile_data/be_disabled> .
+
+<file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#/> <http://www.eclipse.org/emf/2002/Ecore#//EPackage/eClassifiers> <file:/Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/spec_classes.ttl#//mobile_data> .

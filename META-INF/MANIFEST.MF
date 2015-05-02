@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: edu.kit.teco.modelling.transformer;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: %Bundle-Vendor
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: edu.kit.teco.modelling.transformer
+Require-Bundle: org.eclipselabs.emftriple;bundle-version="1.0.0",
+ org.eclipselabs.emftriple.sesame;bundle-version="1.0.0",
+ org.openrdf.sesame;bundle-version="2.7.1",
+ org.slf4j.api;bundle-version="1.7.2",
+ org.eclipse.emf.ecore.xmi,
+ org.eclipse.emf.ecore
+Import-Package: org.osgi.framework;version="1.7.0"
+Main-Class: edu.kit.teco.modelling.transformer.EcoreTransformer

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<model:Parent
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:model="http://eclipselabs.org/emftriple/model"
+    xsi:schemaLocation="http://eclipselabs.org/emftriple/model model.ecore"
+    id="1" name="XY">
+  <children
+      name="X"
+      id="3"/>
+  <children
+      name="Y"
+      id="4"/>
+</model:Parent>

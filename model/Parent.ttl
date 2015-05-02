@@ -1,0 +1,16 @@
+
+<file://Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/Parent.ttl#1> a <file:model/model.ecore#//Parent> ;
+	<file:model/model.ecore#//Parent/id> "1" ;
+	<file:model/model.ecore#//Parent/name> "XY" .
+
+<file://Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/Parent.ttl#3> a <file:model/model.ecore#//Child> ;
+	<file:model/model.ecore#//Child/name> "X" ;
+	<file:model/model.ecore#//Child/id> "3" .
+
+<file://Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/Parent.ttl#1> <file:model/model.ecore#//Parent/children> <file://Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/Parent.ttl#3> .
+
+<file://Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/Parent.ttl#4> a <file:model/model.ecore#//Child> ;
+	<file:model/model.ecore#//Child/name> "Y" ;
+	<file:model/model.ecore#//Child/id> "4" .
+
+<file://Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/Parent.ttl#1> <file:model/model.ecore#//Parent/children> <file://Users/andreimiclaus/masterarbeit/sources/emftriple/examples/org.eclipselabs.emftriple.examples.basic/model/Parent.ttl#4> .
